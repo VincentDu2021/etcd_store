@@ -1,0 +1,12 @@
+nodes:
+  - hostname: test-node-1
+    ip: 10.0.0.10
+    gpu_type: Nvidia H200
+    bios_version: 2.4.4
+    nvidia_driver: 575.148.08
+    cuda_version: 12.8
+    os: ubuntu-22.04
+    kernel: 6.8.0-60-generic
+    secure_boot: false
+    monitoring_enabled: false
+    tags: [available, H200]
